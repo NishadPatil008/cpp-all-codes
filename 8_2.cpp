@@ -2,8 +2,9 @@
 using namespace std;
 
 class ILogin {
-public:
+protected:
     string name, password;
+    public:
     void accept() {
         cout << "Name: ";
         cin >> name;
