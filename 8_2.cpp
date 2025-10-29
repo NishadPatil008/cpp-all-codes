@@ -4,7 +4,7 @@ using namespace std;
 class ILogin {
 protected:
     string name, password;
-    public:
+    public: 
     void accept() {
         cout << "Name: ";
         cin >> name;
