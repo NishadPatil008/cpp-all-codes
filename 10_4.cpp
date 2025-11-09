@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-template <typename T>
+template <class T>
 class Stack {
     T arr[10];
     int top;
