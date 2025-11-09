@@ -24,8 +24,7 @@ int main() {
         cout << "\nEnter choice:\n";
         cout << "1. Add\n2. Subtract\n3. Multiply\n4. Divide\n";
         cout << "5. Modulus\n6. Maximum\n7. Minimum\n8. Square\n";
-        cout << "9. Average\n10. Cube\n";
-        cout << "Enter any other number to exit.\n";
+        cout << "9. Average\n10. Cube\n 11.Exit\n";
         cout << "Choice: ";
         cin >> ch;
 
@@ -99,6 +98,9 @@ int main() {
                 cin >> a;
                 cout << "Result: " << c.cube(a) << endl;
                 break;
+            }
+            case 11: {
+                return 0;
             }
             default:
                 cout << "Invalid choice or exit requested. Goodbye!\n";
